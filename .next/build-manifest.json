@@ -31,6 +31,11 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/contact-us.js"
+    ],
+    "/get-a-quote": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/get-a-quote.js"
     ]
   },
   "ampFirstPages": []

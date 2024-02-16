@@ -24,7 +24,7 @@ export default function GetAQuote() {
         url="https://totalges.uk/get-a-quote"
       />
       <GetAQuoteStyles>
-        <Hero height="20vh">
+        <Hero height="20vh" src="/images/solar/solar3.jpg">
           <div className="decorated-title">
             <h1>Get a Quote</h1>
           </div>

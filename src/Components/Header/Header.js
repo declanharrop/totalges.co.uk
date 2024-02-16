@@ -166,9 +166,9 @@ export default function Header() {
                 {/* <li onClick={() => toggleDropdown('')}>
                   <Link href="/faqs">FAQ's</Link>
                 </li> */}
-                <li onClick={() => toggleDropdown('')}>
+                {/* <li onClick={() => toggleDropdown('')}>
                   <Link href="/about">About Us</Link>
-                </li>
+                </li> */}
                 <li onClick={() => toggleDropdown('')}>
                   <a href="https://totalhomeimprovements.uk">Other Services</a>
                 </li>
@@ -227,9 +227,9 @@ export default function Header() {
                         {/* <li onClick={() => toggleDropdown('')}>
                           <Link href="/faqs">FAQ's</Link>
                         </li> */}
-                        <li onClick={() => toggleDropdown('')}>
+                        {/* <li onClick={() => toggleDropdown('')}>
                           <Link href="/about">About Us</Link>
-                        </li>
+                        </li> */}
                         <li
                           onClick={() => toggleDropdown('')}
                           className="quote-clicked"

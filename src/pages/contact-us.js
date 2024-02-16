@@ -10,7 +10,7 @@ export default function Contact() {
         description="Thank you for considering Total Green Energy Solutions as your partner in transforming your living spaces. We are excited to hear from you and assist you in creating the home of your dreams."
         url="https://totalges.co.uk/contact-us"
       />
-      <Hero height="20vh" src="/images/headers/composite-door.jpeg">
+      <Hero height="20vh" src="/images/solar/solar2.jpg">
         <h1>Contact Us</h1>
       </Hero>
       <StandardPageSection
