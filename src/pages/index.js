@@ -32,6 +32,11 @@ export default function HomePage() {
           ],
         }}
       />
+      <Link href="/solar">
+        <button className="button-reverse" type="button">
+          Explore Solar
+        </button>
+      </Link>
     </div>
   );
 }

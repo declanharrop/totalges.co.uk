@@ -76,6 +76,10 @@ const Globalstyle = createGlobalStyle`
       transform: scale(1.05);
     }
   }
+  .button-reverse {
+    background: var(--black);
+    color: white;
+  }
   a {
     text-decoration: none;
     color: var(--black);
@@ -180,6 +184,28 @@ const Globalstyle = createGlobalStyle`
   }
 }
 
+
+// New Styles
+
+.flex-container {
+  margin: 0 auto 50px;
+  max-width: 1200px;
+  padding: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  .item {
+  padding: 20px 10px;
+   background: var(--black);
+   color: white; 
+  }
+}
+.why-choose {
+  margin: 50px auto;
+  max-width: 1200px;
+  padding: 0 10px;
+}
 `;
 
 export default Globalstyle;
