@@ -2,7 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/": "pages/index.js",
   "/solar": "pages/solar.js",
-  "/get-a-quote": "pages/get-a-quote.js",
-  "/": "pages/index.js"
+  "/battery-storage": "pages/battery-storage.js"
 }

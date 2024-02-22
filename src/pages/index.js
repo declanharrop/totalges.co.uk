@@ -32,11 +32,21 @@ export default function HomePage() {
           ],
         }}
       />
-      <Link href="/solar">
-        <button className="button-reverse" type="button">
-          Explore Solar
-        </button>
-      </Link>
+      <GridPageSection
+        title="Explore our Renewable Solutions"
+        sections={[
+          {
+            title: 'Solar PV Installations',
+            image: 'images/solar/solar.jpg',
+            slug: 'solar',
+          },
+          {
+            title: 'Battery Storage',
+            image: 'images/bat/bat1.jpeg',
+            slug: 'battery-storage',
+          },
+        ]}
+      />
     </div>
   );
 }

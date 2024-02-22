@@ -24,6 +24,15 @@ export default function Sitemap() {
             </Link>
           </div>
         </div>
+        <div className="section">
+          <div className="title">
+            <h5>Green Energy Solutions</h5>
+          </div>
+          <div className="links">
+            <Link href="/solar">Solar PV</Link>
+            <Link href="/about">Battery Storage</Link>
+          </div>
+        </div>
       </div>
     </SitemapStyles>
   );

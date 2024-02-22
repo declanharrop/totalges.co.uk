@@ -37,7 +37,7 @@ export const SitemapStyles = styled.div`
     grid-gap: 10px;
     margin: 0px auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
   .section {
     text-align: left;

@@ -11,7 +11,7 @@ export default function GridPageSection({
 }) {
   return (
     <GridPageSectionStyles style={{ background: `${background}` }}>
-      <h2>{title}</h2>
+      <h2 style={{ color: 'white' }}>{title}</h2>
       <div className="container">
         {sections.map((section, i) => (
           <div key={i} className="grid-item">
