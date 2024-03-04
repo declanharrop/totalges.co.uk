@@ -4,5 +4,5 @@
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
   "/solar": "pages/solar.js",
-  "/battery-storage": "pages/battery-storage.js"
+  "/get-a-quote": "pages/get-a-quote.js"
 }

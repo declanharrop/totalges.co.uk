@@ -133,11 +133,20 @@ const Globalstyle = createGlobalStyle`
     gap: 20px;
   }
   .contractor-section {
+    padding: 0 10px;
     h2 {
       margin-bottom: 40px;
     }
     p {
       margin: 10px 0;
+    }
+  }
+  .get-started-section {
+    img {
+      max-width: 340px;
+    }
+    button {
+      margin-top: 30px;
     }
   }
   // 

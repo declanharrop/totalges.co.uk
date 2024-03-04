@@ -27,7 +27,7 @@ export default function HomePage() {
         data={{
           title: 'Welcome to Total Green Energy Solutions',
           text: [
-            'Welcome to Total Green Energy Solutions, where we are dedicated to powering homes with clean and sustainable energy solutions. As leaders in the field, we specialise in providing innovative solar solutions to our residential customers. With a commitment to environmental stewardship and a passion for empowering homeowners with renewable energy, we offer a comprehensive range of solar products and services tailored to meet your specific needs.',
+            'We are dedicated to powering homes with clean and sustainable energy solutions. As leaders in the field, we specialise in providing innovative solar solutions to our residential customers. With a commitment to environmental stewardship and a passion for empowering homeowners with renewable energy, we offer a comprehensive range of solar products and services tailored to meet your specific needs.',
             'At Total Green Energy Solutions, we believe in harnessing the power of the sun to create a brighter, greener future for generations to come. Explore our website to learn more about how you can make the switch to solar and join us in shaping a cleaner, more sustainable world.',
           ],
         }}
@@ -47,6 +47,23 @@ export default function HomePage() {
           },
         ]}
       />
+      <div className="get-started-section" style={{ margin: '100px auto' }}>
+        <h2>Start your Solar Journey Today</h2>
+        <img src="images/solar/solar7.png" alt="" />
+        <h3>Packages starting from £9,495.00</h3>
+        <p>
+          4Kw Solar Panel System 5Kw's of Battery Storage and a Suitable
+          Inverter.
+        </p>
+        <p>
+          <i>HIES Certificate MCS Certificate EPVS Certificate Full Install</i>
+        </p>
+        <Link href="/get-a-quote">
+          <button type="button" className="button-reverse">
+            Get a Quote Today
+          </button>
+        </Link>
+      </div>
     </div>
   );
 }
